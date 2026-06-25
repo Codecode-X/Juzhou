@@ -1,5 +1,0 @@
-{
-  "prompt": "一张学术论文级别的技术架构图，白色干净背景，深蓝色主色调，扁平化矢量风格。\n\n从左到右的流程布局，包含三个主要区域：\n\n左侧区域标题 \"Text Encoders\"，包含两个并排的深蓝色圆角矩形方块，分别标注文字 \"CN-CLIP\" 和 \"Qwen3-1.7B\"，两个方块下方各有一个小标签分别写着 \"Chinese Semantics\" 和 \"Language Understanding\"。两个方块的右侧有汇聚箭头指向中间区域。\n\n中间区域是一个大的圆角矩形，标题标注 \"0.4B Denoising U-Net\"，内部包含三个小方块分别标注 \"MQA\"、\"2D RoPE\"、\"Sep. Conv\"，右下角有一个红色小标签写着 \"No Attn at Hi-Res\"。大矩形左侧有输入箭头标注 \"Noisy Latent + t\"，上方有输入箭头标注 \"Rectified Flow\"。大矩形内部还有一个浅蓝色标签 \"Parameters reduced by ~85%\"。\n\n右侧区域是一个小的圆角矩形，标题标注 \"1M VAE Decoder\"，内部简洁标注 \"No Attention Layers\"，右下角有浅灰色标签 \"Compressed by 98%\"。右侧输出箭头标注 \"1024×1024 Image\"。\n\n底部有一条从中间区域出发的虚线箭头，指向右侧，标注 \"DMD2 Distillation: 28 steps → 4 steps (7× speedup)\"。\n\n整体风格简洁专业，类似 CVPR/NeurIPS 论文中的架构图，线条清晰，配色统一，标注文字使用无衬线英文字体。",
-  "width": 1264,
-  "height": 848
-}

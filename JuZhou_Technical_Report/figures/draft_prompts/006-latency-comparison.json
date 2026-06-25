@@ -1,5 +1,0 @@
-{
-  "prompt": "一张学术论文风格的分组柱状图，白色干净背景，现代信息图风格。\n\n标题位于图片顶部中央，写着 \"End-to-End Inference Latency\"。\n\n图表区域：\n- 横轴（X轴）有 4 个刻度标签，从左到右：\"Xiaomi 17 Pro Max\"、\"iQOO Neo11\"、\"Redmi K60\"、\"iPhone 15 Pro\"\n- 纵轴（Y轴）刻度从 0 到 14 秒，每隔 2 秒一条浅灰色水平网格线，轴标签 \"Latency (seconds)\"\n\n前三个设备（Android）每个刻度上有两根并排柱体：\n- 浅蓝色柱体标注 \"w/o Refinement\"\n- 橙色柱体标注 \"w/ Refinement\"\n\n柱体高度：\nXiaomi 17 Pro Max 组：浅蓝 2.9s, 橙色 4.5s\niQOO Neo11 组：浅蓝 3.5s, 橙色 5.1s\nRedmi K60 组：浅蓝 9.5s, 橙色 12.7s\n\n每根柱体顶部标注具体秒数。\n\niPhone 15 Pro 组只有一根浅蓝色柱体，高度 4.25s，上方标注 \"FP16, No Quantization\"。\n\n右上角图例区域：蓝色色块 \"w/o Prompt Refinement\"，橙色色块 \"w/ Prompt Refinement\"。\n\n柱体带圆角顶部，整体风格简洁，无衬线英文字体。",
-  "width": 1264,
-  "height": 848
-}
