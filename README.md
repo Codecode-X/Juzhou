@@ -145,21 +145,21 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 ### Foundational Generation Quality (Qualitative)
 
 <p align="center">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/foundational_jz_fig/144000_jpg_prompt2_img2.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/foundational_sd_fig/002_20260309_193620.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/SDV21/image_001.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/SDxl/image_001.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/SD35/image_001.jpg" width="19%">
+  <img src="assets/jz_sample1.jpg" width="19%">
+  <img src="assets/sd15_sample1.jpg" width="19%">
+  <img src="assets/sd21_sample1.jpg" width="19%">
+  <img src="assets/sdxl_sample1.jpg" width="19%">
+  <img src="assets/sd35_sample1.jpg" width="19%">
   <br>
   <em><b>Ours (28 steps)</b> &nbsp;&nbsp; <b>SD1.5</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>SD2.1</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>SDXL</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>SD3.5-L</b></em>
 </p>
 
 <p align="center">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/foundational_jz_fig/144000_jpg_prompt1_img1.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/foundational_sd_fig/001_20260309_193617.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/SDV21/image_000.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/SDxl/image_000.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/SD35/image_000.jpg" width="19%">
+  <img src="assets/jz_sample2.jpg" width="19%">
+  <img src="assets/sd15_sample2.jpg" width="19%">
+  <img src="assets/sd21_sample2.jpg" width="19%">
+  <img src="assets/sdxl_sample2.jpg" width="19%">
+  <img src="assets/sd35_sample2.jpg" width="19%">
   <br>
   <em>Despite its 0.385B parameter budget, JuZhou 1.0 consistently achieves competitive visual fidelity in lighting, texture, and compositional structure against the Stable Diffusion family.</em>
 </p>
@@ -167,11 +167,11 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 ### Distillation Efficacy: 28 Steps → 4 Steps
 
 <p align="center">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/28vs4_e/e_0004.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/28vs4_e/e_0008.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/28vs4_e/e_0016.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/28vs4_e/e_0028.jpg" width="19%">
-  <img src="JuZhou_Technical_Report/figures/sec05_experiments/28vs4_e/e_dmd_4.jpg" width="19%">
+  <img src="assets/distill_4step.jpg" width="19%">
+  <img src="assets/distill_8step.jpg" width="19%">
+  <img src="assets/distill_16step.jpg" width="19%">
+  <img src="assets/distill_28step.jpg" width="19%">
+  <img src="assets/distill_dmd4.jpg" width="19%">
   <br>
   <em><b>4 steps (orig.)</b> &nbsp; <b>8 steps</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>16 steps</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>28 steps</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>4 steps (distilled)</b></em>
   <br>
@@ -181,10 +181,10 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 ### Classical Chinese Poetry-to-Image Generation
 
 <p align="center">
-  <img src="JuZhou_Technical_Report/figures/sec07_application/chinese_poetry/0118_8500_jpg_prompt1_img3.jpg" width="23%">
-  <img src="JuZhou_Technical_Report/figures/sec07_application/chinese_poetry/0118_8500_jpg_prompt2_img3.jpg" width="23%">
-  <img src="JuZhou_Technical_Report/figures/sec07_application/chinese_poetry/0118_8500_jpg_prompt3_img4.jpg" width="23%">
-  <img src="JuZhou_Technical_Report/figures/sec07_application/chinese_poetry/0118_8500_jpg_prompt4_img1.jpg" width="23%">
+  <img src="assets/poetry_popart.jpg" width="23%">
+  <img src="assets/poetry_3d.jpg" width="23%">
+  <img src="assets/poetry_comic.jpg" width="23%">
+  <img src="assets/poetry_chinese.jpg" width="23%">
   <br>
   <em><b>Pop Art</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>3D Animated Film</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Comic</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Chinese Classical Painting</b></em>
   <br>
@@ -272,10 +272,10 @@ Mojie is a mobile application that transforms classical Chinese poetry into high
 | 👥 **Community** | Share creations, browse, like, and comment on poetry-inspired artwork |
 
 <p align="center">
-  <img src="JuZhou_Technical_Report/figures/sec07_application/screenshots/a.png" width="22%">
-  <img src="JuZhou_Technical_Report/figures/sec07_application/screenshots/b.png" width="22%">
-  <img src="JuZhou_Technical_Report/figures/sec07_application/screenshots/c.png" width="22%">
-  <img src="JuZhou_Technical_Report/figures/sec07_application/screenshots/d.png" width="22%">
+  <img src="assets/a.png" width="22%">
+  <img src="assets/b.png" width="22%">
+  <img src="assets/c.png" width="22%">
+  <img src="assets/d.png" width="22%">
   <br>
   <em>Mojie app screenshots: (a) Main interface, (b) Offline generation, (c) Poetry library, (d) Community sharing.</em>
 </p>
