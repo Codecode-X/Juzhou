@@ -320,7 +320,7 @@ JuZhou V1.0 was publicly unveiled at a launch event in Changsha, China, on May 2
 @article{juzhou2025,
   title={JuZhou 1.0 Technical Report: The First Edge-Native Text-to-Image Foundation Model Trained Entirely on China-Developed AI Accelerators},
   author={JuZhou Team, HSW Group},
-  year={2025}
+  year={2026}
 }
 ```
 
