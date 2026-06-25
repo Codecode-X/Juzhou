@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="JuZhou_Technical_Report/figures/hsw.png" width="60" alt="JuZhou Logo">
+<img src="assets/hsw.png" width="60" alt="JuZhou Logo">
 
 # JuZhou 1.0
 
