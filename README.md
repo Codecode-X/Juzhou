@@ -32,7 +32,7 @@ JuZhou 1.0 is an **ultra-lightweight** text-to-image (T2I) foundation model desi
 Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.69**, outperforming published baselines including **SDXL** (2.6B, 0.55), **SD3-Medium** (2B, 0.62), and **IF-XL** (4.3B, 0.61).
 
 <p align="center">
-  <img src="JuZhou_Technical_Report/figures/draft_prompts/output/001-model-architecture.png" width="100%" alt="JuZhou 1.0 Architecture Overview">
+  <img src="assets/overview.png" width="100%" alt="Data Pipeline">
   <br>
   <em>Overview of the JuZhou 1.0 framework: A raw poem or user prompt is refined by Qwen3-1.7B, encoded by CN-CLIP, injected into a 0.385B-parameter denoising U-Net, and decoded by an ultra-compact 1.9M-parameter VAE decoder. DMD2 distillation compresses sampling from 28 steps to 4 steps for 1024×1024 image synthesis.</em>
 </p>
@@ -62,12 +62,6 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 
 ### Ultra-Lightweight Design
 
-<p align="center">
-  <img src="JuZhou_Technical_Report/figures/draft_prompts/output/007-parameter-efficiency.png" width="90%" alt="Parameter Efficiency Comparison">
-  <br>
-  <em>Parameter comparison with mainstream T2I models. JuZhou 1.0 achieves a ~85% reduction in denoising parameters and ~96% reduction in VAE decoder parameters.</em>
-</p>
-
 | Model | Denoiser + VAE | Denoiser | VAE Decoder | Mobile |
 |:---|:---:|:---:|:---:|:---:|
 | SD v1.5 | ~0.91B | ~0.86B | ~49.49M | ✗ |
@@ -87,9 +81,9 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 ## 📊 Data Curation
 
 <p align="center">
-  <img src="JuZhou_Technical_Report/figures/draft_prompts/output/002-data-pipeline.png" width="100%" alt="Data Pipeline">
+  <img src="assets/data.png" width="100%" alt="Training Framework">
   <br>
-  <em>Overview of the Chinese Text-to-Image Curation Pipeline.</em>
+  <em>Multi-stage training framework: low-resolution pre-training → progressive resolution scaling → DMD2 step compression.</em>
 </p>
 
 ### General Chinese Image-Text Corpus (9M pairs)
@@ -107,7 +101,7 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 ## 🔥 Multi-Stage Training Framework
 
 <p align="center">
-  <img src="JuZhou_Technical_Report/figures/draft_prompts/output/003-training-framework.png" width="100%" alt="Training Framework">
+  <img src="assets/train.png" width="100%" alt="Training Framework">
   <br>
   <em>Multi-stage training framework: low-resolution pre-training → progressive resolution scaling → DMD2 step compression.</em>
 </p>
