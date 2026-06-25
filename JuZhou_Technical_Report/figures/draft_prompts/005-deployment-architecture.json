@@ -1,0 +1,5 @@
+{
+  "prompt": "一张学术论文风格的双平台部署架构对比图，白色干净背景，分为上下两个区域。\n\n上方区域用浅绿色背景，左上角标题 \"Android Deployment\"。内部从左到右流程：\n- 最左侧方块 \"Poem Input\"\n- 箭头连接方块 \"LoRA Qwen3-1.7B\"（标注 \"Prompt Refinement\"）\n- 分叉为上下两条路径：\n  - 上面路径标注 \"CPU\"，内部包含两个方块 \"MNN Engine\"，分别标注 \"Qwen3-1.7B (4-bit)\" 和 \"CLIP (8-bit)\"\n  - 下面路径标注 \"NPU\"，内部包含方块 \"QNN SDK\"，下方两个方块分别标注 \"UNet (8-bit)\" 和 \"VAE (8-bit)\"\n- 两条路径汇聚到右侧方块 \"Generated Image\"\n- 右下角小字标注设备 \"Xiaomi 17 Pro / iQOO Neo11 / Redmi K60\"\n\n下方区域用浅蓝色背景，左上角标题 \"iOS Deployment\"。内部从左到右流程：\n- 最左侧方块 \"Text Input\"\n- 箭头连接三个并排方块，统一在方框 \"Core ML\" 内：依次标注 \"CLIP (FP16)\"、\"UNet (FP16)\"、\"VAE (FP16)\"\n- 右侧方块 \"Generated Image\"\n- 右下角小字标注 \"iPhone 15 Pro (A16)\" 和 \"No Quantization\"\n\n上下两个区域中间有一条虚线分隔，虚线中央标签 \"Same Model, Different Runtime\"。\n\n整体风格简洁学术，Android 用绿色系，iOS 用蓝色系，模块间用带箭头线条连接，无衬线英文字体标注。",
+  "width": 1264,
+  "height": 848
+}
