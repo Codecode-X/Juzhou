@@ -124,11 +124,6 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 
 ### GenEval Benchmark (Quantitative)
 
-<p align="center">
-  <img src="JuZhou_Technical_Report/figures/draft_prompts/output/004-geneval-comparison.png" width="90%" alt="GenEval Comparison">
-  <br>
-  <em>GenEval benchmark comparison — JuZhou 1.0 achieves 0.69 overall score with only 0.387B parameters.</em>
-</p>
 
 | Method | Params↓ | Overall↑ | Mobile | Single↑ | Two↑ | Count↑ | Color↑ | Pos.↑ | Color Attr.↑ |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -213,12 +208,6 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 
 ## 📱 Edge Device Deployment
 
-<p align="center">
-  <img src="JuZhou_Technical_Report/figures/draft_prompts/output/005-deployment-architecture.png" width="90%" alt="Deployment Architecture">
-  <br>
-  <em>Heterogeneous deployment architecture across Android (MNN + QNN) and iOS (Core ML) platforms.</em>
-</p>
-
 ### Android Deployment (Mojie 墨界 App)
 
 | Device | Mobile Platform | OS | Lat. w/o Ref. | Lat. w/ Ref. | Mem. w/o Ref. | Mem. w/ Ref. |
@@ -228,12 +217,6 @@ Despite its compact scale, JuZhou 1.0 achieves an overall **GenEval score of 0.6
 | Redmi K60 | Snap. 8+ Gen 1 | Android 15 | 9.5 s | 12.7 s | 180 MB | 1.3 GB |
 
 ### On-Device U-Net Profiling (4-step, 1024×1024)
-
-<p align="center">
-  <img src="JuZhou_Technical_Report/figures/draft_prompts/output/006-latency-comparison.png" width="55%" alt="Latency Comparison">
-  <br>
-  <em>Mobile inference latency comparison across platforms.</em>
-</p>
 
 | Model | Denoiser+VAE | Platform (SoC) | Precision | Peak Mem | 4-step Total |
 |:---|:---:|:---|:---:|:---:|:---:|
