@@ -309,15 +309,12 @@ Shanzhi Gu, Yaoguang Jin
 ### Acknowledgments
 Tongliang Liu, Kede Ma, and Yifan Peng (The University of Hong Kong)
 
-### Special Acknowledgments
-JuZhou V1.0 was publicly unveiled at a launch event in Changsha, China, on May 21, 2025. The accompanying livestream attracted approximately 426,000 cumulative online views. We sincerely thank **Sugon** for its support in domestically developed AI computing infrastructure, including approximately 80 PFLOPS of K100 accelerator resources.
-
 ---
 
 ## 📌 Citation
 
 ```bibtex
-@article{juzhou2025,
+@article{juzhou2026,
   title={JuZhou 1.0 Technical Report: The First Edge-Native Text-to-Image Foundation Model Trained Entirely on China-Developed AI Accelerators},
   author={JuZhou Team, HSW Group},
   year={2026}
